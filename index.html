@@ -1,0 +1,458 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="./images/favicon.ico">
+
+    <!-- BOOTSTRAP CND LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom files link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+ </head>
+ <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+   <!-- Navbar section -->
+   <header class="header-wrapper">
+      <nav class="navbar navbar-expand-lg fixed-top">
+         <div class="container">
+           <a class="navbar-brand" href="#">
+            <img src="images/logo.png" class="img-fluid" alt="logo">
+           </a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             <i class="fas fa-stream navbar-toggler"></i>
+           </button>
+           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+             <ul class="navbar-nav menu-navbar-nav">
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#home">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#about">About</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#service">Service</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#portfolio">Portfolio</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#contact">Contact</a>
+               </li>
+               <li class="nav-item mt-3 mt-lg-0">
+                 <a class="main-btn" href="#contact">Hire me</a>
+               </li>
+               
+             </ul>
+           </div>
+         </div>
+      </nav>
+   </header>
+   <!-- Navbar section exit-->
+
+   <!-- Banner section -->
+   <section id="skill" class="banner-wrapper">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12 text-center text-md-start">
+               <h6>WELCOME TO MY PORTFOLIO</h6>
+               <h1>I'm Bittu<br><span>Full Stack Developer.</span><br>Based in India.</h1>
+               <div class="mt-4">
+                  <a href="./resume/BITTU KUMAR.pdf" class="main-btn">Download CV</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Banner section exit-->
+
+   <!-- About section -->
+   <section id="about" class="about-wrapper">
+      <div class="container">
+         <div class="row justify-content-between align-items-center">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+               <img src="./images/about.jpg" class="img-fluid rounded-3" alt="About-us">
+            </div>
+            <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+               <div class="my-3 my-lg-0">
+                  <span class="subtitle">About My Details</span>
+                  <h2>About Me</h2>
+                  <p>A result-oriented, analytical-minded and
+                     creative thinker seeking a suitable
+                     position at a reputed organization,
+                     where I can use my extensive knowledge
+                     in software design and development
+                     and further learn new things and grow as
+                     a Software Engineer.
+                  </p>
+               </div>
+               <div class="pt-4">
+                  <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" role="tablist">
+                     <li class="nav-item" role="presentation">
+                       <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill" 
+                       data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill"
+                       aria-selected="true">Main Skill</button>
+                     </li>
+
+                     <li class="nav-item" role="presentation">
+                       <button class="nav-link" id="pills-certification-tab" data-bs-toggle="pill"
+                       data-bs-target="#pills-certification" type="button" role="tab" aria-controls="pills-certification" 
+                       aria-selected="false">Certification</button>
+                     </li>
+
+                     <li class="nav-item" role="presentation">
+                       <button class="nav-link" id="pills-experience-tab" data-bs-toggle="pill" 
+                       data-bs-target="#pills-experience" type="button" role="tab" aria-controls="pills-experience" 
+                       aria-selected="false">Experience</button>
+                     </li>
+                     <li class="nav-item" role="presentation">
+                       <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill" 
+                       data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education" 
+                       aria-selected="false">Education</button>
+                     </li>
+                   </ul>
+
+                  <div class="tab-content" id="pills-tabContent">
+                     <div class="tab-pane fade show active" id="pills-skill" role="tabpanel"
+                      aria-labelledby="pills-skill-tab">
+                        <div class="single-progress">
+                           <h6>Designing</h6>
+                           <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                           <span class="label">75%</span>
+                        </div>
+                        <div class="single-progress">
+                           <h6>Development</h6>
+                           <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                           <span class="label">85%</span>
+                        </div>
+                        <div class="single-progress">
+                           <h6>Wordpress</h6>
+                           <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                           <span class="label">60%</span>
+                        </div>
+                     </div>
+
+                     <div class="tab-pane fade" id="pills-certification" role="tabpanel" 
+                     aria-labelledby="pills-certification-tab">
+                        <ul class="text-start ps-0">
+                           <li>
+                              <a href="#">
+                                 Web Development
+                              </a>
+                              2021 - 2022
+                           </li>
+                           <li>
+                              <a href="#">
+                                 MERN Stack
+                              </a>
+                              2022 - 2023
+                           </li>
+                        </ul>
+                     </div>
+                     
+                     <div class="tab-pane fade" id="pills-experience" role="tabpanel" 
+                     aria-labelledby="pills-experience-tab">
+                     <ul class="text-start ps-0">
+                        <li>
+                           <a href="#">
+                              Jr. Fornt-end Engineer
+                              <span> - Abc</span>
+                           </a>
+                           2022 - 2023
+                        </li>
+                        <li>
+                           <a href="#">
+                              Jr. Back-end Engineer
+                              <span> - Abc</span>
+                           </a>
+                           2022 - 2023
+                        </li>
+                        <li>
+                           <a href="#">
+                              Jr. Node Js Developer
+                              <span> - Abc</span>
+                           </a>
+                           2022 - 2023
+                        </li>
+                     </ul>
+                     </div>
+                     
+                     <div class="tab-pane fade" id="pills-education" role="tabpanel" 
+                     aria-labelledby="pills-education-tab">...
+                     <ul class="text-start ps-0">
+                        <li>
+                           <a href="#">
+                              MCA (Master of Computer Application)
+                              <span> - AN College Patna Bihar</span>
+                           </a>
+                           2017 - 2022
+                        </li>
+                        <li>
+                           <a href="#">
+                              BCA (Bachelor of Computer Application)
+                              <span> - AN College Patna Bihar</span>
+                           </a>
+                           2014 - 2017
+                        </li>
+                        <li>
+                           <a href="#">
+                              12th
+                              <span> - ABS College Lalganj Bihar</span>
+                           </a>
+                           2012 - 2014
+                        </li>
+                        <li>
+                           <a href="#">
+                              10th
+                              <span> - GA High School Lalganj Bihar</span>
+                           </a>
+                           2012
+                        </li>
+                     </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </section>
+   <!-- About section exit-->
+
+   <!-- Service section -->
+   <section id="service" class="service-wrapper">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12 text-center mb-4">
+               <span class="subtitle">What I can do for You</span>
+               <h2>My Awesome Service</h2>
+               <p>I am provides offer services to help businesses develop 
+                  and create software based on the requirements of their client.<br class="d-none d-md-block">
+                  I will estimate the time and cost of a project, 
+                  then will design, develop, test, and deliver the product to the client.
+               </p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-4 col-md-4 mb-4">
+               <div class="card">
+                  <div class="card-body text-md-start text-center">
+                     <img src="./service/service-1.svg" alt="Service" class="img-fluid mb-4">
+                     <h3>Business Strategy</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 mb-4">
+               <div class="card">
+                  <div class="card-body text-md-start text-center">
+                     <img src="./service/service-2.svg" alt="Service" class="img-fluid mb-4">
+                     <h3>Website Development</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 mb-4">
+               <div class="card">
+                  <div class="card-body text-md-start text-center">
+                     <img src="./service/service-3.svg" alt="Service" class="img-fluid mb-4">
+                     <h3>Marketing & Reporting</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 mb-4">
+               <div class="card">
+                  <div class="card-body text-md-start text-center">
+                     <img src="./service/service-4.svg" alt="Service" class="img-fluid mb-4">
+                     <h3>App Development</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 mb-4">
+               <div class="card">
+                  <div class="card-body text-md-start text-center">
+                     <img src="./service/service-1.svg" alt="Service" class="img-fluid mb-4">
+                     <h3>Business Strategy</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 mb-4">
+               <div class="card">
+                  <div class="card-body text-md-start text-center">
+                     <img src="./service/service-1.svg" alt="Service" class="img-fluid mb-4">
+                     <h3>Business Strategy</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Service section exit-->
+
+   <!-- Portfolio section -->
+   <section id="portfolio" class="portfolio-wrapper">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12 text-center mb-4">
+               <span class="subtitle">My Complete Project</span>
+               <h2>My Latest Project</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br class="d-none d-md-block">
+                  Incidunt doloribus deleniti natus libero quidem, veniam similique? Labore enim ducimus natus!
+               </p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+               <div class="card p-0">
+                  <span style="background-image: url('./images/portfolio/Foodies.png');"></span>
+               </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+               <div class="card p-0">
+                  <span style="background-image: url('./images/portfolio/App-Landing-Page.png');"></span>
+               </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+               <div class="card p-0">
+                  <span style="background-image: url('./images/portfolio/Christmas-Landing-Page.png');"></span>
+               </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+               <div class="card p-0">
+                  <span style="background-image: url('./images/portfolio/E-Commerce-Website-Using-Bootstap-5.png');"></span>
+               </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+               <div class="card p-0">
+                  <span style="background-image: url('./images/portfolio/Ecommerce-Jewellery-Website.png');"></span>
+               </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+               <div class="card p-0">
+                  <span style="background-image: url('./images/portfolio/Hashtag-Landing-Page.png');"></span>
+               </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+               <div class="card p-0">
+                  <span style="background-image: url('./images/portfolio/Pizza-Landing-Page.png');"></span>
+               </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+               <div class="card p-0">
+                  <span style="background-image: url('./images/portfolio/SEO-Landing-Page.png');"></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Portfolio section exit-->
+
+   <!-- Contact section -->
+   <section id="contact" class="contact-wrapper">
+      <div class="container">
+         <div class="row justify-content-between align-items-center">
+            <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                  <span class="subtitle">My Complete Project</span>
+               <h2>Hire Me.</h2>
+               <div class="row call-details mb-4">
+                  <label class="col-sm-3 col-lg-4">Call us directly:</label>
+                  <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                     <a href="javascript:void(0)">+91 7870980480</a>
+                  </div>
+                  <label class="col-sm-3 col-lg-4">Contact Email:</label>
+                  <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                     <a href="#">dev.bittu96@gmail.com</a>
+                  </div>               
+               </div>
+               <form>
+                  <div class="mb-4">
+                     <input type="text" class="form-control" placeholder="Your Name...." autocomplete="off">
+                  </div>
+                  <div class="mb-4">
+                     <input type="number" class="form-control" placeholder="Your Phone...." autocomplete="off">
+                  </div>
+                  <div class="mb-4">
+                     <input type="email" class="form-control" placeholder="Your Email...." autocomplete="off">
+                  </div>
+                  <div class="mb-4">
+                     <textarea class="form-control" id="message" cols="40" rows="4" placeholder="Write Your Message...." autocomplete="off"></textarea>
+                  </div>
+                  <button type="button" class="main-btn">Submit</button>
+               </form>
+            </div>
+            <div class="col-lg-6 order-lg-1 mb-lg-0">
+               <img src="./images/contact.jpg" alt="contact" class="img-fluid">
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Contact section exit-->
+
+   <!-- Footer section -->
+   <section id="contact" class="footer-wrapper">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-lg-4 col-md-6 text-center text-md-start">
+               <div class="footer-logo mb-3 mb-md-0">
+                  <img src="./images/logo.png" alt="logo" class="img-fluid">
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+               <ul class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+                  <li>
+                     <a href="#"><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-linkedin"></i></a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-lg-4 col-md-12">
+               <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+                  <p class="mb-0">Copyright © 2022 <a href="#">BittuCreation</a>. All Right Reserved.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Footer section exit-->
+
+
+
+
+
+   <!--Bootstrap CDN js link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+   
+    <!-- Custom Js link -->
+   <script src="js/main.js"></script>
+</body>
+ </html>
